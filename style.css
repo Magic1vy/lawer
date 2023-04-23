@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}.nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #1e313e;
+    padding: 10px;
+}
+.item{
+    text-decoration: none;
+    color: #efd3a2;
+    padding: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.section-header{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    text-transform: uppercase;
+    color: #1e313e;
+    font-size: 30px;
+}
+.section-about{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1e313e;
+    padding: 60px;
+}
+.about-us-par{
+    align-self: center;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+}
+button{
+    background-color: #1e313e;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 10px;
+}
+.button-ancor{
+    color: #efd3a2;
+    text-decoration: none;
+}
+.wrapper{
+    background-color: #1e313e;
+    display: flex;
+    padding: 80px;
+    color: white;
+}
+.reason-block{
+    display: flex;
+    padding: 30px;
+    font-size: 16px;
+    justify-content: space-around;
+}
+span{
+    color: #1e313e;
+    background-color: #bb8a5e;
+    border-radius: 50px;
+    margin:40px;
+    padding: 20px;
+    font-size: 70px;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    background-color: #1e313e;
+    padding: 60px;
+}
+.prices-information{
+    background-color: #1e313e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 18px;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    background-color: #1e313e;
+    padding: 50px;
+}
+footer{
+    background-color: #1e313e;
+    padding: 5px;
+}
+.footer-par{
+    color: #efd3a2;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.footer-ancor{
+    text-decoration: none;
+    color: #efd3a2;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+@media all and (max-width:1100px){
+    .wrapper{
+        flex-wrap: wrap;
+    }
+}
+@media all and (max-width:800px) {
+    .nav{
+        flex-direction: column;
+    }
+    .section-about{
+        flex-wrap: wrap;
+    }
+    .wrapper{
+        padding-top: 10px;
+        flex-direction: column;
+    }
+    div.gmap_canvas, div.mapouter, iframe{
+        width: 100%;
+    }
+}
