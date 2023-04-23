@@ -138,4 +138,7 @@ footer{
         width: 100%;
         margin: 0;
     }
+     .reason-block-text{
+        padding: 7px;
+    }
 }
